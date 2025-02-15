@@ -113,6 +113,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center mt-8 text-sm text-gray-500">
+      <p className="text-green-700 capitalize">by Moses Nzioka</p>
         <p>Copyright &copy; 2023 Dscode | All rights reserved</p>
       </div>
     </footer>
