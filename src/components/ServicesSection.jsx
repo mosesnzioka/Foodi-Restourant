@@ -11,7 +11,7 @@ function ServicesSection() {
   return (
     <section className="bg-gray-50 py-12">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        {/* Left Content */}
+        
         <div>
           <h5 className="text-pink-500 font-semibold mb-2">
             OUR STORY & SERVICES
@@ -29,9 +29,8 @@ function ServicesSection() {
           </button>
         </div>
 
-        {/* Right Content - Services Cards */}
         <div className="grid grid-cols-2 gap-6">
-          {/* Card 1 */}
+         
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <div className="text-green-500 text-4xl mb-4">
               <FontAwesomeIcon icon={faUtensils} />
@@ -42,7 +41,7 @@ function ServicesSection() {
             </p>
           </div>
 
-          {/* Card 2 */}
+     
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <div className="text-green-500 text-4xl mb-4">
               <FontAwesomeIcon icon={faShippingFast} />
@@ -53,7 +52,7 @@ function ServicesSection() {
             </p>
           </div>
 
-          {/* Card 3 */}
+         
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <div className="text-green-500 text-4xl mb-4">
               <FontAwesomeIcon icon={faShoppingCart} />
@@ -66,7 +65,7 @@ function ServicesSection() {
             </p>
           </div>
 
-          {/* Card 4 */}
+        
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <div className="text-green-500 text-4xl mb-4">
               <FontAwesomeIcon icon={faGift} />

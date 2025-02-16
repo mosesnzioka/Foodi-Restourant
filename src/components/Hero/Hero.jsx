@@ -5,8 +5,52 @@ import chef from "../../images/chef.jpg";
 const Hero = () => {
   return (
     <section className="bg-white py-12">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-6 lg:px-12">
-        {/* Left Section */}
+      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-12">
+       
+        <div className="lg:w-1/2 mt-8 lg:mt-0 relative">
+         
+          <div className="relative">
+            <div className="rounded-full bg-green-100 p-10">
+              <img
+                src={chef} 
+                alt="Food"
+                className="w-full max-w-sm rounded-full mx-auto"
+              />
+            </div>
+           
+            <div className="absolute top-0 -right-10 bg-white p-3 rounded-lg shadow-md">
+              <p className="text-sm text-gray-700 flex items-center gap-1">
+                Hot spicy Food 🌶️
+              </p>
+            </div>
+          </div>
+
+          
+          <div className="flex gap-6 mt-8 lg:absolute lg:-bottom-10 lg:left-0">
+           
+            <div className="bg-white rounded-lg shadow-lg p-4 w-36 text-center">
+              <img
+                src={spicy} 
+                alt="Spicy Noodles"
+                className="rounded-lg mb-2"
+              />
+              <h3 className="text-sm font-semibold">Spicy noodles</h3>
+              <p className="text-green-500 font-bold text-lg">$18.00</p>
+            </div>
+           
+            <div className="bg-white rounded-lg shadow-lg p-4 w-36 text-center">
+              <img
+                src={saland}
+                alt="Vegetarian Salad"
+                className="rounded-lg mb-2"
+              />
+              <h3 className="text-sm font-semibold">Vegetarian salad</h3>
+              <p className="text-green-500 font-bold text-lg">$23.00</p>
+            </div>
+          </div>
+        </div>
+
+       
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-4xl lg:text-5xl font-bold mb-4 leading-tight">
             Dive into Delights <br />
@@ -32,50 +76,6 @@ const Hero = () => {
                 </svg>
               </div>
             </button>
-          </div>
-        </div>
-
-        {/* Right Section */}
-        <div className="lg:w-1/2 mt-8 lg:mt-0 relative">
-          {/* Image Section */}
-          <div className="relative">
-            <div className="rounded-full bg-green-100 p-10">
-              <img
-                src={chef} 
-                alt="Food"
-                className="w-full max-w-sm rounded-full mx-auto"
-              />
-            </div>
-            {/* Speech Bubble */}
-            <div className="absolute top-0 -right-10 bg-white p-3 rounded-lg shadow-md">
-              <p className="text-sm text-gray-700 flex items-center gap-1">
-                Hot spicy Food 🌶️
-              </p>
-            </div>
-          </div>
-
-          {/* Food Cards */}
-          <div className="flex gap-6 mt-8 lg:absolute lg:-bottom-10 lg:left-0">
-            {/* Spicy Noodles Card */}
-            <div className="bg-white rounded-lg shadow-lg p-4 w-36 text-center">
-              <img
-                src={spicy} // Replace with actual image path
-                alt="Spicy Noodles"
-                className="rounded-lg mb-2"
-              />
-              <h3 className="text-sm font-semibold">Spicy noodles</h3>
-              <p className="text-green-500 font-bold text-lg">$18.00</p>
-            </div>
-            {/* Vegetarian Salad Card */}
-            <div className="bg-white rounded-lg shadow-lg p-4 w-36 text-center">
-              <img
-                src={saland} // Replace with actual image path
-                alt="Vegetarian Salad"
-                className="rounded-lg mb-2"
-              />
-              <h3 className="text-sm font-semibold">Vegetarian salad</h3>
-              <p className="text-green-500 font-bold text-lg">$23.00</p>
-            </div>
           </div>
         </div>
       </div>
