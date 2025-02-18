@@ -5,7 +5,7 @@ import chef from "../../images/chef.jpg";
 const Hero = () => {
   return (
     <section className="bg-white py-12">
-      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-12">
+     <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-12 gap-6">
        
         <div className="lg:w-1/2 mt-8 lg:mt-0 relative">
          

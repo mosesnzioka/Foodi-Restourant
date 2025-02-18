@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100 text-gray-700 py-8">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
-        {/* Logo and tagline */}
+        
         <div>
           <h1 className="text-xl font-bold text-green-500">FOODI</h1>
           <p className="mt-2">
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Useful links */}
+        
         <div>
           <h2 className="font-semibold mb-4">Useful Links</h2>
           <ul className="space-y-2">
@@ -60,7 +60,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Main Menu */}
+       
         <div>
           <h2 className="font-semibold mb-4">Main Menu</h2>
           <ul className="space-y-2">
@@ -87,7 +87,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Us */}
+       
         <div>
           <h2 className="font-semibold mb-4">Contact Us</h2>
           <p className="mb-2">restaurant@gmail.com</p>
@@ -113,8 +113,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center mt-8 text-sm text-gray-500">
-      <p className="text-green-700 capitalize">by Moses Nzioka</p>
-        <p>Copyright &copy; 2023 Dscode | All rights reserved</p>
+        <p>Copyright &copy; 2025 MOSES NZIOKA | All rights reserved</p>
       </div>
     </footer>
   );
